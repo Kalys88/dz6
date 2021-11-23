@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: aqua;
+}
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.section {
+    width: 350px;
+    border: 3px solid fuchsia;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: fuchsia;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttons button {
+    width: 65px;
+    height: 30px;
+    border: 1px solid pink;
+    border-radius: 3px;
+    color: yellow;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    background: blueviolet;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.zero {
+    font-size: 20px;
+    font-family: sans-serif;
+    border: solid 1px;
+    border-radius: 2px;
+    background: blueviolet;
+    padding: 1.5px 10px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.buttons button:hover {
+    background: white;
+}
